@@ -10,7 +10,7 @@ public class BubbleSort<T> extends ArrayList<T> implements Comparable<T>{
 		int n = this.size();
 		boolean swapped = false;
 
-        do {
+        	do {
 			swapped = false;
 			for (int i = 1; i < n; i++) {
 				if (((T) this.get(i-1)).compareTo((T) this.get(i)) == 1) {
