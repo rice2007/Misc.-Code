@@ -30,7 +30,7 @@ public class BubbleSort<T> extends ArrayList<T> implements Comparable<T>{
 	
 	public static void main(String[] args) {
 		BubbleSort<Integer> intList = new BubbleSort<>();
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 150; i++) {
 			intList.add((int) (Math.random() * 1001));
 		}
 		System.out.println(intList);
